@@ -160,31 +160,31 @@ weight = 5
 url = "contact/"
 
 [languages.pt-br]
-languageName = ":Nepali:"
+languageName = ":Nepal:"
 title = "दिपेन्द्र  कुमार शाह"
 
-[languages.pt-np.params]
+[languages.pt-ne.params]
 author = "दिपेन्द्र  कुमार शाह"
 info = ""
 description = ""
 keywords = ""
 
-[[languages.pt-np.menu.main]]
+[[languages.pt-ne.menu.main]]
 name = "परिचय"
 weight = 1
 url = "about/"
 
-[[languages.pt-np.menu.main]]
+[[languages.pt-ne.menu.main]]
 name = "ब्लग"
 weight = 2
 url = "posts/"
 
-[[languages.pt-np.menu.main]]
+[[languages.pt-ne.menu.main]]
 name = "काम"
 weight = 3
 url = "projects/"
 
-[[languages.pt-np.menu.main]]
+[[languages.pt-ne.menu.main]]
 name = "सम्पर्क"
 weight = 5
 url = "contact/"
