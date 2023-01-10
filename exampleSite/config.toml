@@ -13,7 +13,7 @@ enableEmoji = true
 
 [params.nickname]
 nickname = "XCOGIT"
-[params.author]
+[params]
 author = "Dipendra K. Shah"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Dipendra's Personal Site"
