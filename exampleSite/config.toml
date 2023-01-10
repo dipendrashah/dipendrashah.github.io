@@ -11,8 +11,9 @@ enableEmoji = true
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
 
-[params]
+[params.nickname]
 nickname = "XCOGIT"
+[params.author]
 author = "Dipendra K. Shah"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Dipendra's Personal Site"
@@ -160,32 +161,32 @@ name = "Contact me"
 weight = 5
 url = "contact/"
 
-[languages.pt-br]
-languageName = ":Nepal:"
-title = "दिपेन्द्र  कुमार शाह"
+#[languages.pt-br]
+#languageName = ":Nepal:"
+#title = "दिपेन्द्र  कुमार शाह"
 
-[languages.pt-ne.params]
-author = "दिपेन्द्र  कुमार शाह"
-info = ""
-description = ""
-keywords = ""
+#[languages.pt-ne.params]
+#author = "दिपेन्द्र  कुमार शाह"
+#info = ""
+#description = ""
+#keywords = ""
 
-[[languages.pt-ne.menu.main]]
-name = "परिचय"
-weight = 1
-url = "about/"
+#[[languages.pt-ne.menu.main]]
+#name = "परिचय"
+#weight = 1
+#url = "about/"
 
-[[languages.pt-ne.menu.main]]
-name = "ब्लग"
-weight = 2
-url = "posts/"
+#[[languages.pt-ne.menu.main]]
+#name = "ब्लग"
+#weight = 2
+#url = "posts/"
 
-[[languages.pt-ne.menu.main]]
-name = "काम"
-weight = 3
-url = "projects/"
+#[[languages.pt-ne.menu.main]]
+#name = "काम"
+#weight = 3
+#url = "projects/"
 
-[[languages.pt-ne.menu.main]]
-name = "सम्पर्क"
-weight = 5
-url = "contact/"
+#[[languages.pt-ne.menu.main]]
+#name = "सम्पर्क"
+#weight = 5
+#url = "contact/"
