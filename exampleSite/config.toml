@@ -160,31 +160,31 @@ weight = 5
 url = "contact/"
 
 [languages.pt-br]
-languageName = ":brazil:"
-title = "João Ninguém"
+languageName = ":Nepali:"
+title = "दिपेन्द्र  कुमार शाह"
 
-[languages.pt-br.params]
-author = "João Ninguém"
-info = "Full Stack DevOps e Mágico"
-description = "Sítio pessoal de João Ninguém"
-keywords = "blog,desenvolvedor,pessoal"
+[languages.pt-np.params]
+author = "दिपेन्द्र  कुमार शाह"
+info = ""
+description = ""
+keywords = ""
 
-[[languages.pt-br.menu.main]]
-name = "Sobre"
+[[languages.pt-np.menu.main]]
+name = "परिचय"
 weight = 1
 url = "about/"
 
-[[languages.pt-br.menu.main]]
-name = "Blog"
+[[languages.pt-np.menu.main]]
+name = "ब्लग"
 weight = 2
 url = "posts/"
 
-[[languages.pt-br.menu.main]]
-name = "Projetos"
+[[languages.pt-np.menu.main]]
+name = "काम"
 weight = 3
 url = "projects/"
 
-[[languages.pt-br.menu.main]]
-name = "Contato"
+[[languages.pt-np.menu.main]]
+name = "सम्पर्क"
 weight = 5
 url = "contact/"
