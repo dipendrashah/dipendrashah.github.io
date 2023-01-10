@@ -134,7 +134,7 @@ url = "https://medium.com/@xcogit"
 name = "RSS"
 icon = "fa fa-2x fa-rss"
 weight = 6
-url = "https://myhugosite.com/index.xml"
+url = "https://dipendrakshah.com/index.xml"
 rel = "alternate"
 type = "application/rss+xml"
 
