@@ -129,18 +129,18 @@ These are all the parameters used by `hugo-coder` theme.
 
 | Name                          | Type   | Required | Description                                      | Default                          | Example                                          |
 | ----------------------------- | ------ | -------- | ------------------------------------------------ | -------------------------------- | ------------------------------------------------ |
-| author                        | string | Yes      | Author name.                                     |                                  | `"John Doe"`                                     |
+| author                        | string | Yes      | Author name.                                     |                                  | `"Dipendra K. Shah"`                                     |
 | info                          | string | Yes      | An headline, job title or similar.               |                                  | `"Full Stack Developer"`                         | 
-| description                   | string | Yes      | Description of the site.                         |                                  | `"John Doe's personal website"`                  |
+| description                   | string | Yes      | Description of the site.                         |                                  | `"Dipendra's Personal Site"`                  |
 | keywords                      | string | Yes      | Site keywords.                                   |                                  | `"blog,developer,personal"`                      |
 | avatarURL                     | string | No       | Photo of the author.                             |                                  | `"images/avatar.jpg"`                            | 
-| gravatar                      | string | No       | Gravatar photo of the author                     |                                  | `"john.doe@example.com"`                         | 
-| favicon_32                    | string | No       | Custom path to a 32x32 favicon.                  | `"/img/favicon-32x32.png"`       | `"/img/favicon-32x32.png"`                       |
-| favicon_16                    | string | No       | Custom path to a 16x16 favicon.                  | `"/img/favicon-16x16.png"`       | `"/img/favicon-16x16.png"`                       |
+| gravatar                      | string | No       | Gravatar photo of the author                     |                                  | `"x42v94.ds@gmail.com.com"`                         | 
+| favicon_32                    | string | No       | Custom path to a 32x32 favicon.                  | `"/img/favicon.png"`       | `"/img/favicon.png"`                       |
+| favicon_16                    | string | No       | Custom path to a 16x16 favicon.                  | `"/img/favicon.png"`       | `"/img/favicon.png"`                       |
 | touchIcon                     | string | No       | Custom path to a touch-icon                      | `"/images/apple-touch-icon.png"` | `"/images/apple-touch-icon.png"`                 |
 | since                         | string | No       | Date shown in the footer before now year         |                                  | `"2020"`                                         |
 | maxSeeAlsoItems               | number | No       | Series see also post count                       | `5`                              | `10`                                             |
-| commit                        | string | No       | Show the last git commit in the footer           |                                  | `"https://github.com/luizdepra/hugo-coder/tree/"`|
+| commit                        | string | No       | Show the last git commit in the footer           |                                  | `"https://github.com/dipendrashah/hugo-coder/tree/"`|
 | rtl                           | bool   | No       | Enable the Right To Left mode.                   | `false`                          | `true` or `false`                                |
 | math                          | bool   | No       | Enable MathJax Module and add JS into your site. | `false`                          | `true` or `false`                                |
 | katex                         | bool   | No       | Enable katex for all content types.              | `false`                          | `true` or `false`                                |
@@ -160,7 +160,7 @@ Social Icons are optional. To use them you will need to set at least all the fol
 | name           | string | Yes      | Icon name.                               | `"Github"`                      |
 | icon           | string | Yes      | ForkAwesome icon classes.                | `"fa fa-github"`                |
 | weight         | int    | Yes      | Icon order.                              | `1`                             |
-| url            | string | Yes      | URL to redirect.                         | `"https://github.com/johndoe/"` |
+| url            | string | Yes      | URL to redirect.                         | `"https://github.com/dipendrashah/"` |
 
 An example:
 
@@ -169,17 +169,13 @@ An example:
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
-[[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
-  weight = 2
-  url = "https://gitlab.com/johndoe/"
+  url = "https://github.com/dipendrashah/"
+
 [[params.social]]
   name = "Twitter"
   icon = "fa fa-twitter fa-2x"
   weight = 3
-  url = "https://twitter.com/johndoe/"
+  url = "https://twitter.com/dipendrakshah/"
 ```
 
 ### Menu Items Configurations
@@ -279,8 +275,8 @@ disqusShortname = "yourdiscussshortname"
   avatarurl = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
 
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  favicon_32 = "/img/favicon.png"
+  favicon_16 = "/img/favicon.png"
 
   since = 2019
 
@@ -304,17 +300,13 @@ disqusShortname = "yourdiscussshortname"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
-[[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
-  weight = 2
-  url = "https://gitlab.com/johndoe/"
+  url = "https://github.com/dipendrashah/"
+
 [[params.social]]
   name = "Twitter"
   icon = "fa fa-twitter fa-2x"
   weight = 3
-  url = "https://twitter.com/johndoe/"
+  url = "https://twitter.com/dipendrakshah/"
 
 # Menu links
 [[menu.main]]
